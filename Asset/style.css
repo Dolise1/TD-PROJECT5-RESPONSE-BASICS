@@ -89,14 +89,12 @@ line-height: 0;
     padding: 0 10%;
 }
 img{
-    /* width: 100%;
-    height: 100%; */
+     width: 100%;
+    height: 100%;
     width: 100%;
     height: auto;
-    padding-bottom: 30px;
-    border-radius: 20px;
     overflow: hidden;
-    align-content: center;
+    align-content: center; 
 }
 .service-item{
     font-size: 20px;
@@ -107,8 +105,15 @@ img{
     padding: 0 10%;
     background-color: #ebebeb;
 }
-img.pc2{
-padding-top: 60px;
+.project-container1{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5%;
+}
+.project-container2{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
 }
 button{
     justify-items: center;
@@ -176,29 +181,32 @@ button.second{
 .light-orange{
     height: 40%;
     width: 90%;
-    display:none
+    display:none;
 }
-.footer{
+.row1 {
     background-color: #157293;
+    text-align: center;
+     height: 100%; 
 }
 h3{
-    text-align: center;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 a{
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
-    text-align: center;
+    
+}
+.row1 p{
+    color: white;
 }
 .email{
-    text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
 }
 img.facebook{
@@ -220,21 +228,19 @@ img.youtube{
 .col col-2{
     display: flex;
 }
+.project-container1 img, .project-container2 img{
+    border-radius: 7%;
+    margin-bottom: 5%;
+    width: 95%;
+    align-content: center;
+}
+.social-media img{
+padding-top: 2%;
+padding-bottom:2% ;
+}
+
+
+
     /* media query */
 
-    @media screen and (min-width:768px) {
-        .navbar{
-            display:flex;
-            justify-content: space-between;
-        }
-        .hamburger{
-            display: none;
-        }
-        .my-services{
-            display: flex;
-            flex-direction: row;
-        }
-        .img1{
-            padding-right: 20pxinit;
-        }
-    }
+   
