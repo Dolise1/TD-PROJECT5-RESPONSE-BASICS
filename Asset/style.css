@@ -242,5 +242,93 @@ padding-bottom:2% ;
 
 
     /* media query */
-
-   
+@media  screen and (min-width:768px) {
+    .hamburger{
+        display: none
+    }
+    .menu-bar a{
+        display: inline;
+        padding: 5px;
+    }
+    .my-services{
+        display: flex;
+        justify-content: space-between;
+        white-space: nowrap;
+    }
+    .project-heading{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact{
+        margin-top: 50px;
+    }
+    .project-container1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .project-container2{
+        display: flex;
+        justify-content: space-between;
+    }
+@media  screen and (min-width:801px)and (max-width:1024px) {
+    .navbar{
+        max-width: 1024px;
+    }
+    /* .service-item { */
+        /* padding-top: 50px; */
+        /* .hamburger{
+            display: none */
+    }
+    .menu-bar a{
+        display: inline;
+        padding: 15px;
+    }   
+    .service-image img{
+        width: 100px;
+    }
+    .project-heading{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact{
+        margin-top: 50px;
+    }
+    .project-container1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .project-container2{
+        display: flex;
+        justify-content: space-between;
+    }
+    @media screen and (min-width:1024px) {
+        .navbar{
+            max-width: 1024px;
+        }
+        .hamburger{
+            display: none
+        }
+        .menu-bar a{
+            display: inline;
+            padding: 15px;
+        }
+        .my-services{
+            padding-top: 40px;
+        }
+        .project-heading{
+            display: flex;
+            justify-content: space-between;
+        }
+        .contact{
+            margin-top: 50px;
+            margin: left 100px;
+        }
+        .project-container1{
+            display: flex;
+            justify-content: space-between;
+        }
+        .project-container2{
+            display: flex;
+            justify-content: space-between;
+        }
+     
