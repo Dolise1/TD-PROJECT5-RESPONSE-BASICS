@@ -159,8 +159,8 @@ button.contact{
 }
 
 button.first{
-    width: 120px;
-    height: 40px;
+    width: 140px;
+    height: 50px;
     border-radius: 10px;
     border-style: none;
     font-weight: bold;
@@ -169,8 +169,8 @@ button.first{
     
 }
 button.second{
-    width: 120px;
-    height: 40px;
+    width: 140px;
+    height: 50px;
     border-radius: 10px;
     border-style: none;
     background-color: #157293;
@@ -206,8 +206,9 @@ a{
 }
 .email{
     color: white;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: 600; 
+    padding-top: 10px;
 }
 img.facebook{
     width: 50px;
@@ -235,9 +236,24 @@ img.youtube{
     align-content: center;
 }
 .social-media img{
-padding-top: 2%;
-padding-bottom:2% ;
+    padding-top: 2%;
+    padding-bottom:2% ;
 }
+.prompt{
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.social-media{
+    margin-top: 5px;
+}
+.copy{
+    margin-top: 40px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
 
 
 
@@ -270,6 +286,10 @@ padding-bottom:2% ;
         display: flex;
         justify-content: space-between;
     }
+    .buttons.first{
+        justify-content:space-between;
+        margin: right 10px;;
+    }
 @media  screen and (min-width:801px)and (max-width:1024px) {
     .navbar{
         max-width: 1024px;
@@ -301,6 +321,36 @@ padding-bottom:2% ;
         display: flex;
         justify-content: space-between;
     }
+    .pc3{
+        margin-top: 50px;
+        padding-right: 10px;
+    } 
+    .pc1{
+        padding-right: 10px;
+    }  
+    .pc2{
+        padding-right: 10px;
+    } 
+    img.facebook{
+        width: 65px;
+        height: 65px;
+    }
+    img.twitter{
+        width: 65px;
+        height: 65px;
+    }
+    img.instagram{
+        width: 65px;
+        height: 65px;
+    }
+    img.youtube{
+        width: 65px;
+        height: 65px;
+    }
+    .copy{
+        font-weight: 600;
+        font-size: 20px;
+    }    
     @media screen and (min-width:1024px) {
         .navbar{
             max-width: 1024px;
@@ -331,4 +381,36 @@ padding-bottom:2% ;
             display: flex;
             justify-content: space-between;
         }
-     
+        .pc3{
+            margin-top: 50px;
+            padding-right: 10px;
+        }
+        .pc1{
+            padding-right: 10px;
+        }  
+        .pc2{
+            padding-right: 10px;
+        }
+        .row{
+            height: auto;
+        }
+        img.facebook{
+            width: 80px;
+            height: 80px;
+        }
+        img.twitter{
+            width: 80px;
+            height: 80px;
+        }
+        img.instagram{
+            width: 80px;
+            height: 80px;
+        }
+        img.youtube{
+            width: 80px;
+            height: 80px;
+        } 
+        .copy{
+            font-weight: 700;
+            font-size:25px;
+        } 
