@@ -45,40 +45,33 @@ header{
     cursor: pointer;
     color: white;
     padding-bottom: 0px;
-    
-    
 }
 
 h2{
     color: #4D9AAD;
     font-size: 30px;
-    /* padding-left:35px; */
     padding-top: 50px;
     padding-bottom: 20px;
     text-align: justify;
 }
 .contact{
-    width: 100px;
-    height: 35px;
+    width: 120px;
+    height: 40px;
     color: white;
     background-color: #4D9AAD;
     border-radius: 5px;
     border-style: none;
     font-weight: bold;
-    font-size: 15px;
-    
+    font-size: 15px;  
 }
 
 
 .service{
-display: flex;
-flex-direction: column;
-/* align-content: center;
-justify-content: center; */
-margin: auto;
-text-align:justify;
-line-height: 0;
-
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align:justify;
+    line-height: 0;
 }
  .quality{
     padding: 20px;
@@ -89,7 +82,7 @@ line-height: 0;
     padding: 0 10%;
 }
 img{
-     width: 100%;
+    width: 100%;
     height: 100%;
     width: 100%;
     height: auto;
@@ -99,7 +92,7 @@ img{
 .service-item{
     font-size: 20px;
     padding: 15px;
-
+    list-style: none;
 }
 .project{
     padding: 0 10%;
@@ -117,8 +110,18 @@ img{
 }
 button{
     justify-items: center;
-    
-
+    cursor: pointer;
+}
+.contact:hover{
+    background-color:rgb(23, 16, 121);
+    color: white;
+}
+.first:hover{
+    background-color: rgb(23, 16, 121);
+    color: white;
+}
+.second:hover{
+    background-color:rgb(23, 16, 121); 
 }
 h2.virtual{
     text-align: justify;
@@ -129,8 +132,8 @@ button.contact{
     color: white;
     font-weight: bold;
     font-size: 20px;
-    width: 120px;
-    height: 40px;
+    width: 140px;
+    height: 55px;
     border-radius: 10px;
     border-style: none;
     
@@ -160,7 +163,7 @@ button.contact{
 
 button.first{
     width: 140px;
-    height: 50px;
+    height: 55px;
     border-radius: 10px;
     border-style: none;
     font-weight: bold;
@@ -170,7 +173,7 @@ button.first{
 }
 button.second{
     width: 140px;
-    height: 50px;
+    height: 55px;
     border-radius: 10px;
     border-style: none;
     background-color: #157293;
@@ -205,8 +208,8 @@ a{
     color: white;
 }
 .email{
-    color: white;
-    font-size: 40px;
+    color: #ffffff;
+    font-size: 30px;
     font-weight: 600; 
     padding-top: 10px;
 }
@@ -260,7 +263,7 @@ img.youtube{
     /* media query */
 @media  screen and (min-width:768px) {
     .hamburger{
-        display: none
+        display: none;
     }
     .menu-bar a{
         display: inline;
@@ -286,18 +289,20 @@ img.youtube{
         display: flex;
         justify-content: space-between;
     }
-    .buttons.first{
-        justify-content:space-between;
-        margin: right 10px;;
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+        margin: 50px;
+        margin-bottom: 0px;
     }
+    .buttons.second{
+        margin-left: 65px;
+    }
+
+    
 @media  screen and (min-width:801px)and (max-width:1024px) {
     .navbar{
         max-width: 1024px;
-    }
-    /* .service-item { */
-        /* padding-top: 50px; */
-        /* .hamburger{
-            display: none */
     }
     .menu-bar a{
         display: inline;
@@ -350,13 +355,14 @@ img.youtube{
     .copy{
         font-weight: 600;
         font-size: 20px;
-    }    
+    } 
+      
     @media screen and (min-width:1024px) {
         .navbar{
             max-width: 1024px;
         }
         .hamburger{
-            display: none
+            display: none;
         }
         .menu-bar a{
             display: inline;
@@ -371,7 +377,7 @@ img.youtube{
         }
         .contact{
             margin-top: 50px;
-            margin: left 100px;
+            /* padding-left: 100px; */
         }
         .project-container1{
             display: flex;
@@ -413,4 +419,24 @@ img.youtube{
         .copy{
             font-weight: 700;
             font-size:25px;
+        }
+        .light-orange{
+            display:block;
+            width: 200px;
+            margin-left: 40px;
         } 
+        .top-image{
+            float: right;
+            overflow: hidden;
+        }
+        .contact-content{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 40px;
+        }
+        .buttons{
+            margin-top: 100px;
+        }
+        .first{
+            margin-right: 20px;
+        }}}}
